@@ -18,7 +18,7 @@ int t = 0;
 uint64 get_current_time(void)
 {
     /* Replace with ctime */
-    return t = t + 10000;
+    return ctime();
 }
 
 /* Simple example that allocates heap memory and accesses it. */
