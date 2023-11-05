@@ -3,7 +3,7 @@
 
 #include <stdbool.h>
 
-#define MAXULTHREADS 100
+#define MAXULTHREADS 10
 
 enum ulthread_state
 {

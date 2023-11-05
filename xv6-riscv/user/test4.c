@@ -13,11 +13,13 @@
 
 /* Stack region for different threads */
 char stacks[PGSIZE * MAXULTHREADS];
+int t = 0;
 
 uint64 get_current_time(void)
 {
     /* Replace with ctime */
-    return ctime();
+    // return ctime();
+    return t = t + 100;
 }
 
 void ul_start_func(int a1)
